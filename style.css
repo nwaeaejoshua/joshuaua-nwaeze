@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+}
+.header{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+.logo h1{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+    left: 2rem;
+    font-weight: 200;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    position: relative;
+    margin: 0 10px;
+    padding: 0 2px;
+}
+.link a::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    left: 0;
+    width: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+.link a:hover::after{
+    width: 100%;
+}
+.contact{
+    display: flex;
+    gap: 1rem;
+}
+.contact img{
+    cursor: pointer;
+    width: 20px;
+    padding: 1px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid;
+}
+.contact img:hover{
+    transition: 0.3s;
+    transform: translateY(-2px);
+}
+.hero{
+    background-color: rgb(193, 193, 191);
+    padding: 120px;
+}
+.hero h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    position: relative;
+    bottom: 2rem;
+    left: 5rem;
+    font-weight: 700;
+    color: rgb(29, 30, 30);
+}
+.hero button{
+    padding: 10px;
+    width: 150px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 2px solid rgb(7, 6, 6);
+    cursor: pointer;
+    color: rgb(3, 3, 4);
+    position: relative;
+    left: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.hero button:hover{
+    transition: 0.3s;
+   background-color: blanchedalmond;
+}
+.about{
+   padding: 150px;
+}
+.about h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:rgb(33, 33, 33) 10px 10px 10px;
+    position: absolute;
+    bottom: -7rem;
+    left: 10rem;
+    font-weight: 100;
+}
+.about p{
+    position: absolute;
+    bottom: -100px;
+    left: 30rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.about button{
+    position: absolute;
+    left: 30rem;
+    bottom: -170px;
+    width: 150px;
+    padding: 10px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border: 2px solid rgb(33, 33, 33);
+}
+.skill{
+    background-color:  rgb(75, 74, 74);
+    padding: 240px;
+}
+.skill h2{
+   position: absolute;
+   bottom: -390px;
+   left: 550px;
+   font-size: 50px;
+   color: azure;
+   font-weight: 100;
+   text-shadow: rgb(0, 0, 0) 10px 10px 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.skill p{
+   color: azure;
+   position: absolute;
+   left: 400px;
+    bottom: -30rem;
+}
+#ff{
+    position: absolute;
+    bottom: -420px;
+    color: rgb(233, 235, 235);
+}
+#rr{
+    position: absolute;
+    bottom: -440px;
+    color: rgb(233, 235, 235);
+    left: 26rem;
+}
+#dd{
+    position: absolute;
+    bottom: -460px;
+    color: rgb(233, 235, 235);
+    left: 26rem;
+}
+#it{
+    position: absolute;
+    bottom: -480px;
+    color: rgb(233, 235, 235);
+    left: 32rem;
+}
+.html{
+    position: absolute;
+    left: 400px;
+    bottom: -550px;
+    padding: 20px 12rem;
+    background: linear-gradient(to right, 
+    rgb(59, 59, 59)15%,
+    rgb(59, 59, 59) 0%,
+    rgb(59, 59, 59) 15%,
+    rgb(59, 59, 59) 0%,
+     rgb(183, 182, 182)0%,
+     rgb(183, 182, 182)0%,
+     rgb(183, 182, 182)70%,
+     rgb(183, 182, 182)0%,
+     white 16%,
+     rgb(255, 255, 255)0%);
+}
+.html span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+}
+.css{
+    position: absolute;
+    left: 400px;
+    bottom: -625px;
+    padding: 20px 12rem;
+    background: linear-gradient(to right, 
+    rgb(59, 59, 59)15%,
+     rgb(59, 59, 59) 0%,
+     rgb(59, 59, 59) 15%,
+     rgb(59, 59, 59) 0%,
+     rgb(183, 182, 182)0%,
+     rgb(183, 182, 182)0%,
+     rgb(183, 182, 182)65%,
+     rgb(183, 182, 182)0%,
+     white 10%,
+     rgb(255, 255, 255)0%);
+}
+.css span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 16px;
+    bottom: 8px;
+}
+.java{
+    position: absolute;
+    left: 400px;
+    bottom: -700px;
+    padding: 20px 12rem;
+    background: linear-gradient(to right, 
+    rgb(59, 59, 59)15%,
+    rgb(59, 59, 59) 0%,
+    rgb(59, 59, 59) 15%,
+    rgb(59, 59, 59) 0%,
+     rgb(183, 182, 182)0%,
+     rgb(183, 182, 182)0%,
+     rgb(183, 182, 182)50%,
+     rgb(183, 182, 182)0%,
+     white 10%,
+     rgb(255, 255, 255)0%);
+}
+.java span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+}
+.padding{
+    padding: 70px;
+    background-color: rgba(7, 5, 5, 0.276);
+    width: 30px;
+    height: 30px;
+    border-radius: 105px;
+    position: absolute;
+    bottom: 14rem;
+    left: 51rem;
+}
+.enter{
+    padding: 70px;
+    background-color: rgba(7, 5, 5, 0.276);
+    width: 30px;
+    height: 30px;
+    border-radius: 105px;
+    position: absolute;
+    bottom: 5rem;
+    left: 51rem;
+}
+.toy{
+    padding: 70px;
+    background-color: rgba(7, 5, 5, 0.276);
+    width: 30px;
+    height: 30px;
+    border-radius: 105px;
+    position: absolute;
+    bottom: 10rem;
+    left: 43.5rem;
+}
+.ban{
+    padding: 70px;
+    background-color: rgba(7, 5, 5, 0.276);
+    width: 30px;
+    height: 30px;
+    border-radius: 105px;
+    position: absolute;
+    bottom: 10rem;
+    left: 58.5rem;
+}
+.final{
+   padding: 80px;
+   background-color: rgba(0, 0, 0, 0.144);
+}
+.final h2{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   position: absolute;
+   bottom: -830px;
+}
+.final button{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 34rem;
+    bottom: -850px;
+    padding: 10px;
+    width: 130px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.second img{
+    width: 15px;
+    position: absolute;
+    bottom: -850px;
+    left: 50px;
+
+}
+.second p{
+    position: absolute;
+    bottom: -865px;
+    left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.third img{
+    width: 15px;
+    position: absolute;
+    bottom: -890px;
+    left: 50px;
+}
+.third p{
+    position: absolute;
+    bottom: -56.7rem;
+    left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.img{
+   position: absolute;
+   bottom: -52rem;
+   left: 60rem;
+   display: flex;
+   gap: 1rem;
+}
+.img img{
+    width: 20px;
+    cursor: pointer;
+}
+.come span{
+    position: absolute;
+    bottom: -54rem;
+    left: 58rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media only screen and (max-width: 480px){{  
+}{
+}
+.header{
+    height: 50px;
+}
+.logo h1{
+   position: relative;
+   left: 10px;
+   bottom: 3px;
+   font-size: 40px;
+}
+.contact{
+    display: none;
+}
+.hero h2{
+    position: relative;
+    left: 0rem;
+} 
+.hero button{
+    position: relative;
+    left: 0px;
+}
+.padding{
+    display: none;
+}
+.enter{
+ display: none;
+}
+.toy{
+   display: none;
+}
+.ban{
+   display: none;
+}
+.about{
+    padding: 50px;
+}
+.about h2{
+   position: relative;
+   left: 110px; 
+   bottom: 50px;
+}
+.about button{
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+}
+.about p{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.skill{
+    height: 7px;
+    position: relative;
+    width: 3px;
+    
+}
+.skill h2{
+    position: absolute;
+    bottom: 350px;
+    left: 12rem;
+}
+#ff{
+    display: none;
+}
+#rr{
+    display: none;
+}
+#dd{
+    display: none;
+}
+#it{
+   display: none;
+}
+.html{
+   position: absolute; 
+   left: 2px;
+   bottom: -250px;
+   left: 3rem;
+}
+.css{
+    position: absolute; 
+    left: 2px;
+    bottom: -325px;
+    left: 3rem;
+}
+.java{
+    position: absolute; 
+    left: 2px;
+    bottom: -400px;
+    left: 3rem;
+}
+ .final{
+   height: 14vh;
+ }
+ .final h2{
+    position: absolute;
+    top: 94rem;
+    left: 1rem;
+}
+.second{
+    position: absolute;
+    top: 47rem;
+    right: 19rem;
+}
+.third{
+    position: absolute;
+    top: 42rem;
+    right: 14rem;
+}
+.img{
+    display: none;
+}
+.come{
+    display: none;
+}
+.final button{
+    position: absolute;
+    left: 10rem;
+    bottom: -750px;
+}
